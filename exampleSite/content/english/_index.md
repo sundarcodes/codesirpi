@@ -1,10 +1,10 @@
 ---
 banner:
-  title: We are here to turn your vision to reality
+  title: We, the Code Sirpis are here to turn your vision to reality.
   image: images/banner-art.svg
   content: Come to us with your awesome idea and lets together brainstorm, discuss
-    and create it together. Just don't worry about the technology stack. Leave it
-    to us
+    and create it together. Just don't worry about the technology stack. Leave the
+    tech part to us..
   button:
     enable: true
     label: Contact With Us
