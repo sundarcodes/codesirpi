@@ -4,6 +4,6 @@ googleAnalytics = ""
 paginate = "3"
 summaryLength = "15"
 theme = "bigspring"
-title = "Bigspring Hugo"
+title = "Codesirpi"
 [markup.goldmark.renderer]
 unsafe = true
