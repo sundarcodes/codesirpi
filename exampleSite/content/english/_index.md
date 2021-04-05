@@ -2,9 +2,9 @@
 banner:
   title: We are here to turn your vision to reality
   image: images/banner-art.svg
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim
-    maxime corporis cumque <br> totam aliquid nam sint inventore optio modi neque
-    laborum officiis necessitatibus
+  content: Come to us with your awesome idea and lets together brainstorm, discuss
+    and create it together. Just don't worry about the technology stack. Leave it
+    to us
   button:
     enable: true
     label: Contact With Us
