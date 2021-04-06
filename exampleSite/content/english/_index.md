@@ -4,10 +4,10 @@ banner:
   image: images/banner-art.svg
   content: Come to us with your awesome idea and lets together brainstorm, discuss
     and create it together. Just don't worry about the technology stack. Leave the
-    tech part to us..
+    tech part to us.. We specialise in developing web and mobile apps.
   button:
     enable: true
-    label: Contact With Us
+    label: Reach Us
     link: contact
 feature:
   enable: true
