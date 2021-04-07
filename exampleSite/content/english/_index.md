@@ -32,7 +32,7 @@ feature:
     icon: fas fa-cloud
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
 service:
-  enable: true
+  enable: false
   service_item:
   - title: It is the most advanced digital marketing and it company.
     images:
