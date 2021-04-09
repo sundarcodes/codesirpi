@@ -1,0 +1,16 @@
+[[footer_left]]
+name = "Home"
+url = "#"
+weight = 1
+[[footer_left]]
+name = "Contact"
+url = "contact"
+
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+[[main]]
+name = "Contact"
+url = "contact"
+weight = 4
