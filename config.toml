@@ -7,3 +7,9 @@ theme = "bigspring"
 title = "Codesirpi"
 [markup.goldmark.renderer]
 unsafe = true
+[params]
+typeformid = "EMf8yma2"
+typeformuser = "sundar82" # Optional
+typeformwidth = "100%" # Optional
+[params.variables]
+primary_color = "#6C63FF"

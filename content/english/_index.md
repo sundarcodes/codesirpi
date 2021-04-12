@@ -48,7 +48,7 @@ employee_section:
   button:
     enable: true
     label: Join Us
-    link: contact
+    link: employee_contact
 feature2:
   enable: true
   title: Why you should join us?
