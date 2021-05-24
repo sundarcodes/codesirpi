@@ -1,7 +1,7 @@
 author = "sundarcodes"
 contact_form_action = "#"
 description = "Codesirpi - The code sculptors"
-logo = "images/logo_code_sirpi.png"
+logo = "images/code_sirpi_logo.png"
 logo_width = "200px"
 [navigation_button]
 enable = true

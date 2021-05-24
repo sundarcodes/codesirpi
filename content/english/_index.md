@@ -24,7 +24,7 @@ feature:
   feature_item:
     - name: Clean Code
       icon: fas fa-code
-      content: We believe in the philosophy that coding is an art and we akin coding to poetry. Beautifyl to read and understand.
+      content: We believe in the philosophy that coding is an art and we akin coding to poetry - beautiful to read and understand.
     - name: Product driven development
       icon: fas fa-project-diagram
       content: A product should write its own roadmap. Its the user feedback that determines the features of the product.
