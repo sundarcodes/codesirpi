@@ -4,7 +4,8 @@ googleAnalytics = ""
 paginate = "3"
 summaryLength = "15"
 theme = "bigspring"
-title = "Codesirpi"
+title = "CodeSirpi"
+favicon = "images/favicon.ico"
 [markup.goldmark.renderer]
 unsafe = true
 [params]
