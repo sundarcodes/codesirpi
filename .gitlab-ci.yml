@@ -7,13 +7,13 @@ before_script:
   - touch /root/.ssh/known_hosts
   - chmod 600 /root/.ssh/known_hosts
   
-  - ssh-keyscan -H -p 10022 github.com | tee -a /root/.ssh/known_hosts
+  # - ssh-keyscan -H -p 10022 github.com | tee -a /root/.ssh/known_hosts
   
-  - 'which ssh-agent || ( yum update -y && yum install openssh-client -y )'
+  # - 'which ssh-agent || ( yum update -y && yum install openssh-client -y )'
   
-  - eval $(ssh-agent -s) 
+  # - eval $(ssh-agent -s) 
   
-  - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+  # - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
     
   - git submodule sync --recursive
   - git submodule update --init --recursive
