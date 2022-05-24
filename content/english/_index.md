@@ -42,13 +42,14 @@ feature:
     #   content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
 
 employee_section:
-  title: If you are passionate about programming and have the inner zeal to keep learning, come and join our team.
+  title: Passionate about programming and building products, come and join our team.
   image: images/join_us_for_employee.svg
-  content: You love to code...Wanna shape it and take to next level while having fun..Come on lets work together..join us.
+  content: You love to code..Wanna be a part of a product development culture while having fun..Come on lets work together..join us.
   button:
     enable: true
     label: Join Us
     link: employee_contact
+
 feature2:
   enable: true
   title: Why you should join us?
@@ -77,6 +78,15 @@ feature2:
     # - name: Work as you study
     #   icon: fas fa-hand-spock
     #   content: A physical degree is important, but happened to discontinue for unavoidable reasons but passionate about coding? We could help you if you fit into our requirements.
+
+student_section:
+  title: New to coding? We are here to help you.
+  image: images/join_us_for_employee.svg
+  content: If you are someone who is looking to get into the awesome world of software development but not sure how, come and join our tailored front end development bootcamp.
+  button:
+    enable: true
+    label: Enroll Now
+    link: bootcamp
 
 service:
   enable: false
