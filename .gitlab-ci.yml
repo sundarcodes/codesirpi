@@ -1,7 +1,23 @@
 image: registry.gitlab.com/pages/hugo/hugo_extended:latest
 
-variables:
-  GIT_SUBMODULE_STRATEGY: recursive
+before_script:
+  - echo "Preparing run..."
+  - mkdir -p /root/.ssh
+  - chmod 700 /root/.ssh
+  - touch /root/.ssh/known_hosts
+  - chmod 600 /root/.ssh/known_hosts
+  
+  - ssh-keyscan -H -p 10022 <server-ip> | tee -a /root/.ssh/known_hosts
+  
+  - 'which ssh-agent || ( yum update -y && yum install openssh-client -y )'
+  
+  - eval $(ssh-agent -s) 
+  
+  - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+    
+  - git submodule sync --recursive
+  - git submodule update --init --recursive
+
 
 pages:
   script:
