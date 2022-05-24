@@ -1,0 +1,12 @@
+pages:
+  image: registry.gitlab.com/gitlab-ci-utils/docker-hugo:latest
+  variables:
+    SITE: '$CI_PROJECT_DIR'
+    DEST: '$CI_PROJECT_DIR/public'
+  script:
+    - hugo --cleanDestinationDir --source $SITE --destination $DEST
+  artifacts:
+    paths:
+    - public
+  only:
+    - master
