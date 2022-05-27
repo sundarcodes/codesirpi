@@ -10,7 +10,7 @@ title = "Bigspring Hugo"
 weight = 2
 [en]
 contentDir = "content/english"
-copyright = "© 2021 Code Sirpi"
+copyright = "© 2022 Code Sirpi"
 footer_content = ""
 footer_menu_left = "Company"
 footer_menu_middle = "Product"

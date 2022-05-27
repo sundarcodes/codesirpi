@@ -282,6 +282,69 @@ textarea.form-control {
     color: #6C63FF;
     display: inline-block; }
 
+.bootcamp-outcome .outcome-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.bootcamp-outcome .outcome-card {
+  border-radius: 5px;
+  background-color: #fff; }
+
+.bootcamp-banner .banner-container {
+  position: relative; }
+
+.bootcamp-banner .left-img {
+  background-image: url("/images/bootcamp-banner-left.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 500px;
+  filter: brightness(0.8); }
+
+.bootcamp-banner .right-img {
+  background-image: url("/images/bootcamp-banner-right.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 500px;
+  filter: brightness(0.5); }
+
+.bootcamp-banner .bootcamp-text {
+  font-weight: 100; }
+
+.bootcamp-banner .text-in-banner-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  min-height: inherit;
+  align-items: center;
+  min-height: 200px;
+  position: absolute;
+  margin: 150px auto;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2rem; }
+
+.bootcamp-journey-card {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column; }
+  .bootcamp-journey-card .journey-mode {
+    align-self: flex-end;
+    color: #fff;
+    background-color: #6C63FF;
+    padding: 5px 10px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px; }
+  .bootcamp-journey-card .journey-name {
+    flex-grow: 2;
+    font-weight: 100; }
+  .bootcamp-journey-card .journey-detail {
+    flex-grow: 2;
+    font-weight: 200; }
+
 .footer-list a {
   display: block;
   padding: 5px 0;
